@@ -182,7 +182,7 @@ predictBtn.addEventListener("click", async function () {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/predict",
+            "https://forest-fire-ai.onrender.com/predict",
             {
                 method: "POST",
 
